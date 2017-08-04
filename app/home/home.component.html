@@ -1,0 +1,29 @@
+<div class="col-md-6 col-md-offset-3">
+    <h1>Olá {{currentUser.firstName}}!</h1>
+    <p>OnePageEnterprises</p>
+    <h3>Usuários registrados:</h3>
+    <ul>
+        <li *ngFor="let user of users">
+            {{user.username}} ({{user.firstName}} {{user.lastName}})
+            - <a (click)="deleteUser(user.id)">Delete</a>
+        </li>
+    </ul>
+        <p><a [routerLink]="['/login']">Logout</a></p>
+        
+        <br>  <img src="http://vocalcompleto.com.br/wp-content/uploads/2017/06/guitarra-rock-e-suas-vertentes.jpg" alt="Smiley face" height="200" width="500">   
+       
+    <h1>Comentários</h1>
+
+        <ul>
+        <li *ngFor="let coment of coments;let i=index">
+            {{coment}} <a href="let index" (click)="remover(i)"> Excluir</a>
+        </li>
+    </ul>
+
+    <input type="text" name="coment" placeholder="Digite um comentario.. " [(ngModel)]="txtComent">
+       <button (click)="adicionar()">Enviar</button>
+    <br>
+    
+    <br>
+    
+</div>
