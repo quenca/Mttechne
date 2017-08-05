@@ -11,8 +11,8 @@ Angular2
 <br>
 <br> INFORMAÇÕES SOBRE O PROJETO
 <br> Para dar Login, é necessario criar um novo usuário, sendo guardado as informações num serviço de backend
-<br> As informaçoes do Login é validado para que nao tenha informacoes repetidas e os campos sao obrigatorios
-<br> Ao logar, o cliente é redirecionado a uma pagina contendo no cabecario as informacoes do login com opcao para deletar o usuario
+<br> As informaçoes do Login são validadas para que não haja informações repetidas e os campos são obrigatorios
+<br> Ao logar, o cliente é redirecionado a uma pagina contendo no cabeçalho as informacoes do login com a opção para deletar o usuario
 <br> Ao deslogar (Log out) o cliente é redirecionado a pagina inicial para nao ter acesso ao campo comentario
 <br> O sistema permite comentar na foto do produto da OnePageEnterprises e excluir o comentario
 <br> O sistema NAO permite editar o comentario, sendo necessario excluir e enviar novo comentario
